@@ -97,7 +97,7 @@ describe.skip('RemoveFirst', () => {
   });
 });
 
-describe('RemoveLast', () => {
+describe.skip('RemoveLast', () => {
   test('RemoveLast removes the last node when list is empty', () => {
     const l = new List();
     expect(() => {
@@ -272,7 +272,7 @@ describe.skip('InsertAt', () => {
   });
 });
 
-describe.skip('ForEach', () => {
+describe('ForEach', () => {
   test('applies a transform to each node', () => {
     const l = new List();
 
